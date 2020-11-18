@@ -1,7 +1,18 @@
 import React from 'react'
-import logo from './logo.svg';
+import Contact from "./Components/Contact"; 
+import Resume from './Components/Resume'
+import Footer from "./Components/Footer"
+import Home from "./Components/Home"
+import Projects from './Components/Projects';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom";
+
 import './App.css';
-import { render } from '@testing-library/react';
+
 
 class App extends React.Component {
 
@@ -11,7 +22,37 @@ class App extends React.Component {
 
   render(){
     return (
-     <div></div>
+     <div>
+       <Router>
+          <Switch>
+
+            <Route exact path="/"> 
+              <Redirect to="/home"/>
+            </Route>
+
+            <Route path="/home">
+              <Home/>
+            </Route>
+            <Route path="/Contact">
+              <Contact/>
+            </Route>
+
+            <Route path="/resume">
+              <Resume/>
+            </Route>
+
+            <Route path="/Projects">
+              <Projects/>
+            </Route>
+
+            <Route path="*">
+              <Redirect to="/home"/>
+            </Route>  
+
+            <Footer/>
+          </Switch>
+      </Router>
+     </div>
     )
   }
 }
