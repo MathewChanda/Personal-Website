@@ -74,7 +74,7 @@ export default class Projects extends Component {
             <a href="https://techatncsu.github.io/" style={{backgroundImage: 'url(images/WolfSnacks.png)',backgroundSize:"contain" }} className="image order-2 d-flex justify-content-center align-items-center" data-scrollax=" properties: { translateY: '-30%'}">
             </a>
             <div className="text order-1">
-                <h4 className="subheading">WolfSnacks</h4>
+                <h4 className="subheading">NC State's Food Pantry Web App</h4>
                 <h2 className="heading"><a href="https://techatncsu.github.io/">WolfSnacks</a></h2>
                 <p> A Full Stack Web application that automates administrative work such as volunteer tracking and data analytics for local food pantry Feed The Pack. 
                     Built in Angular,Flask, and MySQL. Served to 36,000+ NC State students and staff.</p>
