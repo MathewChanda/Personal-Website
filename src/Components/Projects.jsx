@@ -43,7 +43,7 @@ export default class Projects extends Component {
         <div className="row justify-content-center mb-5 pb-5">
             <div className="col-md-7 text-center heading-section ftco-animate">
             <span>Projects</span>
-            <h2>A collection of my favorite works</h2>
+            <h2>A Collection of My Favorite Works</h2>
             </div>
         </div>
         <div className="row no-gutters">
