@@ -14,10 +14,10 @@ export default class Home extends Component {
                 <div className="col-md-12 text-center">
                     <h1 className="mb-4"><a href="home" className="logo">Mathew Chanda</a></h1>
                     <ul>
-                        <li style={{marginRight : 33}}><a href="home"><span><small>01</small>Home</span></a></li>
+                        <li className="active" style={{marginRight : 33}}><a href="home"><span><small>01</small>Home</span></a></li>
                         <li><a href="resume"><span><small>02</small>Resume</span></a></li>
                         {/*<li><a href="services.html"><span><small>03</small>Services</span></a></li>*/}
-                        <li className="active"><a href="projects"><span><small>03</small>Projects</span></a></li>
+                        <li><a href="projects"><span><small>03</small>Projects</span></a></li>
                         {/*<li><a href="blog"><span><small>04</small>Blog</span></a></li>*/}
                         <li><a href="contact"><span><small>04</small>Contact</span></a></li>
                     </ul>
