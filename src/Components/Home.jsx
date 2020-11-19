@@ -47,7 +47,7 @@ export default class Home extends Component {
             <div className="container">
                 <div className="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
                 <div className="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                    <p><a className="scroll">Hello! I'm</a></p>
+                    <p><a className="scroll">Hello, World! I'm</a></p>
                     <h1 className="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Mathew Chanda</h1>
                 </div>
                 </div>
