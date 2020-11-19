@@ -100,15 +100,6 @@ export default class Resume extends Component {
                     <h2 className="mb-4"> Work Experience</h2>
                     <div className="exp-wrap py-4">
                       <div className="desc">
-                        <h4>Cisco<span> - Incoming Software Engineering Intern</span> </h4>
-                        <p className="location">Raleigh, NC</p>
-                      </div>
-                      <div className="year">
-                        <p>Summer 2021</p>
-                      </div>
-                    </div>
-                    <div className="exp-wrap py-4">
-                      <div className="desc">
                         <h4>LexisNexis<span> - Software Engineering Co-op</span> </h4>
                         <p className="location">Raleigh, North Carolina (Remote)</p>
                         <ul>
