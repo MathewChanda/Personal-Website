@@ -21,6 +21,8 @@ import { SiJava,
   SiAmazonaws
   ,SiGithub,
   SiAzuredevops,
+  SiHeroku, 
+  SiFlask
  } from "react-icons/si";
 
 export default class Resume extends Component {
@@ -139,107 +141,117 @@ export default class Resume extends Component {
               </div>
               <div className="row mt-5 flex-column ftco-animate">
               <div className="col-md-8">
-                  <h2 className="mb-4">My Skills</h2>
+                  <h2 className="mb-4">My Skills and Knowledge</h2>
                 </div>
-                <div className="container" style={{display: "flex", flexWrap : "wrap", flexFlow: "row", justifyContent: "space-between",gridTemplateColumns: "repeat(2, 1fr)",width: "50%"}}>
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                <div className="container">
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "90%"}}>
                     <SiJava size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Java</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiSwift size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Swift</h3>
                   </div>
 
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiPython size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Python</h3>
                   </div>
 
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiHtml5 size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>HTML</h3>
                   </div>
 
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiCss3 size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>CSS</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiJavascript size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Javascript</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiMysql size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>MySQL</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiReact size={90} color="#2f89fc"/>
-                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>React/React Native</h3>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>React and React Native</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiAngular size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Angular</h3>
                   </div>
 
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiMongodb size={90} color="#2f89fc"/>
-                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Mongodb</h3>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>MongoDB</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiBootstrap size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Bootstrap</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiFirebase size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Firebase</h3>
                   </div>
 
-
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
-                    <SiAndroidstudio size={90} color="#2f89fc"/>
-                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Android Studio</h3>
-                  </div>
-
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiXcode size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>XCode</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
+                    <SiAndroidstudio size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Android Studio</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
+                    <SiFlask size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Flask</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiJenkins size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Jenkins</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiDocker size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Docker</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiAmazonaws size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>AWS</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiGithub size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center",color:"#8c8c8c"}}>GitHub</h3>
                   </div>
 
-                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiAzuredevops size={90} color="#2f89fc"/>
                     <h3 style={{textAlign: "center", color:"#8c8c8c"}}>Azure Devops</h3>
+                  </div> 
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
+                    <SiHeroku size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center", color:"#8c8c8c"}}>Heroku</h3>
                   </div> 
                 </div>
               </div>
