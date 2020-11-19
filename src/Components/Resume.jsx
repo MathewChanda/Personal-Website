@@ -31,7 +31,7 @@ export default class Resume extends Component {
 
       <div>
   <nav id="colorlib-main-nav" role="navigation"> {/* nav.js */}
-    <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle active"><i /></a>
+    <a target="_blank" href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle active"><i /></a>
     <div className="js-fullheight colorlib-table">
     <div className="img" style={{backgroundImage: 'url(images/Tesla.png)',backgroundSize : "cover",height: "100%"}}  />
       <div className="colorlib-table-cell js-fullheight">
@@ -39,12 +39,12 @@ export default class Resume extends Component {
           <div className="col-md-12 text-center">
             <h1 className="mb-4"><a href="home" className="logo">Mathew Chanda</a></h1>
             <ul>
-                <li style={{marginRight : 33}}><a href="home"><span><small>01</small>Home</span></a></li>
+                <li style={{marginRight : 33}}><a target="_blank" href="home"><span><small>01</small>Home</span></a></li>
                 <li className="active"><a href="resume"><span><small>02</small>Resume</span></a></li>
-                {/*<li><a href="services.html"><span><small>03</small>Services</span></a></li>*/}
+                {/*<li><a target="_blank" href="services.html"><span><small>03</small>Services</span></a></li>*/}
                 <li><a href="projects"><span><small>03</small>Projects</span></a></li>
-                {/*<li><a href="blog"><span><small>04</small>Blog</span></a></li>*/}
-                <li><a href="contact"><span><small>04</small>Contact</span></a></li>
+                {/*<li><a target="_blank" href="blog"><span><small>04</small>Blog</span></a></li>*/}
+                <li><a  href="contact"><span><small>04</small>Contact</span></a></li>
             </ul>
           </div>
         </div>
@@ -57,9 +57,9 @@ export default class Resume extends Component {
         <div className="row">
           <div className="col-md-12">
             <div className="colorlib-navbar-brand">
-              <a className="colorlib-logo" href="home"><span className="logo-img" style={{backgroundImage: 'url(images/MathewSuit.jpg)'}} />Mathew Chanda</a>
+              <a className="colorlib-logo" target="_blank" href="home"><span className="logo-img" style={{backgroundImage: 'url(images/MathewSuit.jpg)'}} />Mathew Chanda</a>
             </div>
-            <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle"><i /></a>
+            <a target="_blank" href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle"><i /></a>
           </div>
         </div>
       </div>
@@ -83,14 +83,14 @@ export default class Resume extends Component {
                         As I continue to explore and learn new exciting technologies valued by today’s top employers, I enjoy meeting new people from various backgrounds to discover new ideas and cultures. Finally, 
                         my overall goal is to produce impactful work within my community!
                     </p>
-                    <p><a href={pdf}>Download my resume</a></p>
+                    <p><a target="_blank" href={pdf}>Download my resume</a></p>
                     <ul className="ftco-footer-social list-unstyled mt-4">
-                        <li><a href="https://www.linkedin.com/in/mathewchandancsu/"><span className="icon-linkedin" /></a></li>
-                        <li><a href="https://github.com/MathewChanda"><span className="icon-github" /></a></li>
-                        <li><a href="https://www.instagram.com/ichanda72/"><span className="icon-instagram" /></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/mathewchandancsu/"><span className="icon-linkedin" /></a></li>
+                        <li><a target="_blank" href="https://github.com/MathewChanda"><span className="icon-github" /></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/ichanda72/"><span className="icon-instagram" /></a></li>
                     </ul>
                     <h5>Contact me here!</h5>
-                    <p>Email: <a href="mailto:mvchanda@ncsu.edu?Subject=Website%20Contact">mvchanda@ncsu.edu</a></p>
+                    <p>Email: <a target="_blank" href="mailto:mvchanda@ncsu.edu?Subject=Website%20Contact">mvchanda@ncsu.edu</a></p>
                     </div>
                 </div>
               </div>

@@ -57,9 +57,6 @@ function Contact(){
                     <div class="col-md-3">
                     <p><span>Email:</span> <a href="mailto:mvchanda@ncsu.edu">mvchanda@ncsu.edu</a></p>
                     </div>
-                    <div class="col-md-3">
-                    <p><span>Website:</span> <a href="#">mattchanda.me</a></p>
-                    </div>
                 </div>
                 <div class="row block-9">
                     <div class="col-md-6 pr-md-5">
