@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import pdf from './pdf/MathewResume.pdf' 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 export default class Resume extends Component {
   render() {
@@ -86,7 +88,7 @@ export default class Resume extends Component {
                         </ul>
                       </div>
                       <div className="year">
-                        <p>Summer 2020</p>
+                        <p>Aug 2020 - Now</p>
                       </div>
                     </div>
                   </div>
@@ -119,134 +121,20 @@ export default class Resume extends Component {
                 <div className="col-md-8">
                   <h2 className="mb-4">My Skills</h2>
                 </div>
-                <div className="col-md-6 animate-box">
-                  <div className="progress-wrap">
-                    <h4>Python</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{width: '100%'}}>
-                        <span>5/5</span>
-                      </div>
-                    </div>
+                <div style={{display: "flex", flexWrap : "wrap", flexFlow: "row", justifyContent: "space-between"}}>
+                  <div>
+                    <FontAwesomeIcon icon={faCoffee} />
+                    <h3 style={{textAlign: "center"}}>Hello</h3>
                   </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>Java</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
-                        <span>4/5</span>
-                      </div>
-                    </div>
+
+                  <div>
+                    <FontAwesomeIcon icon={faCoffee} />
+                    <h3 style={{textAlign: "center"}}>Hello</h3>
                   </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>React</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
-                        <span>3/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box">
-                  <div className="progress-wrap">
-                    <h4>C++</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
-                        <span>4/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>Node.js</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
-                        <span>3/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>HTML</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
-                        <span>4/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box">
-                  <div className="progress-wrap">
-                    <h4>CSS</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
-                        <span>4/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>JavaScript</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
-                        <span>3/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>Swift</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{width: '40%'}}>
-                        <span>2/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>Firebase</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
-                        <span>3/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>Android Studio</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
-                        <span>3/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>Tensorflow</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{width: '40%'}}>
-                        <span>2/5</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                  <div className="progress-wrap">
-                    <h4>React Native</h4>
-                    <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{width: '40%'}}>
-                        <span>2/5</span>
-                      </div>
-                    </div>
+
+                  <div style={{justifyContent : "center", alignContent : "center"}}>
+                    <FontAwesomeIcon icon={faCoffee} />
+                    <h3 style={{textAlign: "center"}}>Hello</h3>
                   </div>
                 </div>
               </div>
