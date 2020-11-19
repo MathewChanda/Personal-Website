@@ -104,11 +104,11 @@ export default class Home extends Component {
                     </div>
                     <div className="p-5">
                     <p>
-                        I'm a computer science major at NC State with a minor in Mathematics. I have worked in different fields within the technology industry such as mobile and full-stack development and DevOps. 
-                        As I continue to seek to explore the technology field and learn new problem-solving skills valued by today’s top employers, I enjoy meeting new people from various backgrounds to discover new ideas and cultures. 
+                        I'm a computer science major at NC State with a minor in Mathematics. I have experience in Full Stack Development, Mobile Development, and DevOps. 
+                        As I continue to seek to explore  and learn new exciting technologies valued by today’s top employers, I enjoy meeting new people from various backgrounds to discover new ideas and cultures.
                         Outside of writing impactful code, I enjoyed playing PC games with friends, investing my money in the stock market, and watching new animes!
                     </p>
-                    <p><a href="resume">Check out my resume</a></p>
+                    <p><a href="resume">Check out my experience!</a></p>
                     <p><a href={pdf}>Download my resume</a></p>
                     <ul className="ftco-footer-social list-unstyled mt-4">
                         <li><a href="https://www.linkedin.com/in/mathewchandancsu/"><span className="icon-linkedin" /></a></li>
@@ -183,7 +183,7 @@ export default class Home extends Component {
             <div className="text order-1">
             <h4 className="subheading">NC State Course Finder Web App</h4>
             <h2 className="heading"><a href="http://www.packranks.com/">PackRanks</a></h2>
-            <p> Full Stack Web application provides a comprehensive assortment of course options for a user who is identifying a potential academic path, 
+            <p> Full Stack Web application that provides a comprehensive assortment of course options for a user who is identifying a potential academic path, 
                 based on multifarious quantifiable metrics and third-party services that provide numerical professor metadata. 
                 Built with React, Flask, and MongoDB and recieved 10,000+ pageviews and 300+ signed-in users.</p>
             <p><a href="https://github.com/iiradia/PackRanks">View Project in Github</a></p>
@@ -206,8 +206,8 @@ export default class Home extends Component {
             <div className="text order-1">
                 <h4 className="subheading">WolfSnacks</h4>
                 <h2 className="heading"><a href="https://techatncsu.github.io/">WolfSnacks</a></h2>
-                <p> Full Stack Web application that automates administrative work such as volunteer tracking and data analytics for local food pantry Feed The Pack. 
-                    Built in Angular,Flask, and MySQL. Served 36,000+ NC State Students and Staff.</p>
+                <p> A Full Stack Web application that automates administrative work such as volunteer tracking and data analytics for local food pantry Feed The Pack. 
+                    Built in Angular,Flask, and MySQL. Served to 36,000+ NC State students and staff.</p>
                 <p><a href="https://techatncsu.github.io/">Learn more at Tech @ NC State</a></p>
             </div>
             </div>

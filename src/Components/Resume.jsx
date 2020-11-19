@@ -76,12 +76,12 @@ export default class Resume extends Component {
                     <h2 className="mb-5">Hello, I'm Mathew Chanda</h2>
                     </div>
 
-
                     </div>
                     <div className="p-5">
                     <p> 
-                        I'm a computer science major at NC State with a minor in Mathematics. I have worked in different fields within the technology industry such as mobile and full-stack development and DevOps. 
-                        As I continue to seek to explore the technology field and learn new problem-solving skills valued by today’s top employers, I enjoy meeting new people from various backgrounds to discover new ideas and cultures. 
+                        I'm a computer science major at NC State with a minor in Mathematics. I have experience in Full Stack Development, Mobile Development, and DevOps. 
+                        As I continue to seek to explore  and learn new exciting technologies valued by today’s top employers, I enjoy meeting new people from various backgrounds to discover new ideas and cultures. Finally, 
+                        my overall goal is to produce impactful work within my community!
                     </p>
                     <p><a href={pdf}>Download my resume</a></p>
                     <ul className="ftco-footer-social list-unstyled mt-4">
@@ -98,6 +98,15 @@ export default class Resume extends Component {
                 <div className="col-md-10">
                   <div className="exp mt-5 ftco-animate">
                     <h2 className="mb-4"> Work Experience</h2>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
+                        <h4>Cisco<span> - Incoming Software Engineering Intern</span> </h4>
+                        <p className="location">Raleigh, NC</p>
+                      </div>
+                      <div className="year">
+                        <p>Summer 2021</p>
+                      </div>
+                    </div>
                     <div className="exp-wrap py-4">
                       <div className="desc">
                         <h4>LexisNexis<span> - Software Engineering Co-op</span> </h4>
