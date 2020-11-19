@@ -11,7 +11,7 @@ function Contact(){
             <nav id="colorlib-main-nav" role="navigation">
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
             <div class="js-fullheight colorlib-table">
-            <div className="img" style={{backgroundImage: 'url(images/MathewNCSU.png)',backgroundSize:"cover"}}  />
+            <div className="img" style={{backgroundImage: 'url(images/Tesla.png)',backgroundSize : "cover",height: "100%"}}  />
                 <div class="colorlib-table-cell js-fullheight">
                 <div class="row no-gutters">
                     <div class="col-md-12 text-center">

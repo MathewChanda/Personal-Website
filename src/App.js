@@ -48,10 +48,9 @@ class App extends React.Component {
             <Route path="*">
               <Redirect to="/home"/>
             </Route>  
-
-            <Footer/>
           </Switch>
       </Router>
+      <Footer/>
      </div>
     )
   }

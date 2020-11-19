@@ -2,6 +2,26 @@ import React, { Component } from 'react'
 import pdf from './pdf/MathewResume.pdf' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { SiJava,
+  SiSwift,
+  SiPython,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiMysql,
+  SiReact,
+  SiAngular,
+  SiMongodb, 
+  SiBootstrap,
+  SiFirebase,
+  SiAndroidstudio,
+  SiXcode,
+  SiJenkins,
+  SiDocker,
+  SiAmazonaws
+  ,SiGithub,
+  SiAzuredevops,
+ } from "react-icons/si";
 
 export default class Resume extends Component {
   render() {
@@ -11,7 +31,7 @@ export default class Resume extends Component {
   <nav id="colorlib-main-nav" role="navigation"> {/* nav.js */}
     <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle active"><i /></a>
     <div className="js-fullheight colorlib-table">
-      <div className="img" style={{backgroundImage: 'url(images/MathewNCSU.png)',backgroundSize:"cover"}}  />
+    <div className="img" style={{backgroundImage: 'url(images/Tesla.png)',backgroundSize : "cover",height: "100%"}}  />
       <div className="colorlib-table-cell js-fullheight">
         <div className="row no-gutters">
           <div className="col-md-12 text-center">
@@ -118,24 +138,109 @@ export default class Resume extends Component {
                 </div>
               </div>
               <div className="row mt-5 flex-column ftco-animate">
-                <div className="col-md-8">
+              <div className="col-md-8">
                   <h2 className="mb-4">My Skills</h2>
                 </div>
-                <div style={{display: "flex", flexWrap : "wrap", flexFlow: "row", justifyContent: "space-between"}}>
-                  <div>
-                    <FontAwesomeIcon icon={faCoffee} />
-                    <h3 style={{textAlign: "center"}}>Hello</h3>
+                <div className="container" style={{display: "flex", flexWrap : "wrap", flexFlow: "row", justifyContent: "space-between",gridTemplateColumns: "repeat(2, 1fr)",width: "50%"}}>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiJava size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Java</h3>
                   </div>
 
-                  <div>
-                    <FontAwesomeIcon icon={faCoffee} />
-                    <h3 style={{textAlign: "center"}}>Hello</h3>
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiSwift size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Swift</h3>
                   </div>
 
-                  <div style={{justifyContent : "center", alignContent : "center"}}>
-                    <FontAwesomeIcon icon={faCoffee} />
-                    <h3 style={{textAlign: "center"}}>Hello</h3>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiPython size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Python</h3>
                   </div>
+
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiHtml5 size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>HTML</h3>
+                  </div>
+
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiCss3 size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>CSS</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiJavascript size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Javascript</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiMysql size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>MySQL</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiReact size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>React/React Native</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiAngular size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Angular</h3>
+                  </div>
+
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiMongodb size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Mongodb</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiBootstrap size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Bootstrap</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiFirebase size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Firebase</h3>
+                  </div>
+
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiAndroidstudio size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Android Studio</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiXcode size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>XCode</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiJenkins size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Jenkins</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiDocker size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>Docker</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiAmazonaws size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>AWS</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiGithub size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>GitHub</h3>
+                  </div>
+
+                  <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none"}}>
+                    <SiAzuredevops size={90} color="#2f89fc"/>
+                    <h3 style={{textAlign: "center", color:"#8c8c8c"}}>Azure Devops</h3>
+                  </div> 
                 </div>
               </div>
             </div>

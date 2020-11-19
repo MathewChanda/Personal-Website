@@ -8,7 +8,7 @@ export default class Home extends Component {
         <nav id="colorlib-main-nav" role="navigation"> {/* nav.js */}
             <a className="js-colorlib-nav-toggle colorlib-nav-toggle active"><i /></a>
             <div className="js-fullheight colorlib-table">
-            <div className="img" style={{backgroundImage: 'url(images/MathewNCSU.png)',backgroundSize:"cover"}}  />
+            <div className="img" style={{backgroundImage: 'url(images/Tesla.png)',backgroundSize : "cover",height: "100%"}}  />
             <div className="colorlib-table-cell js-fullheight">
                 <div className="row no-gutters">
                 <div className="col-md-12 text-center">
