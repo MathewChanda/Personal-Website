@@ -47,7 +47,7 @@ export default class Home extends Component {
             <div className="container">
                 <div className="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
                 <div className="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                    <p><a className="scroll">Hello, World! I'm</a></p>
+                    <p><a className="scroll">Hello World! I'm</a></p>
                     <h1 className="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Mathew Chanda</h1>
                 </div>
                 </div>
@@ -106,7 +106,7 @@ export default class Home extends Component {
                     <p>
                         I'm a computer science major at NC State with a minor in Mathematics. I have experience in Full Stack Development, Mobile Development, and DevOps. 
                         As I continue to seek to explore  and learn new exciting technologies valued by today’s top employers, I enjoy meeting new people from various backgrounds to discover new ideas and cultures.
-                        Outside of writing impactful code, I enjoyed playing PC games with friends, investing my money in the stock market, and watching new animes!
+                        Outside of writing impactful code, I enjoy playing PC games with friends, investing my money in the stock market, and watching new animes!
                     </p>
                     <p><a href="resume">Check out my experience!</a></p>
                     <p><a href={pdf}>Download my resume</a></p>

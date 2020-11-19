@@ -80,7 +80,7 @@ export default class Resume extends Component {
                     <div className="p-5">
                     <p> 
                         I'm a computer science major at NC State with a minor in Mathematics. I have experience in Full Stack Development, Mobile Development, and DevOps. 
-                        As I continue to seek to explore  and learn new exciting technologies valued by today’s top employers, I enjoy meeting new people from various backgrounds to discover new ideas and cultures. Finally, 
+                        As I continue to explore and learn new exciting technologies valued by today’s top employers, I enjoy meeting new people from various backgrounds to discover new ideas and cultures. Finally, 
                         my overall goal is to produce impactful work within my community!
                     </p>
                     <p><a href={pdf}>Download my resume</a></p>
