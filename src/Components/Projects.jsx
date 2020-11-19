@@ -53,7 +53,7 @@ export default class Projects extends Component {
             <div className="text order-1">
             <h4 className="subheading">NC State Course Finder Web App</h4>
             <h2 className="heading"><a href="http://www.packranks.com/">PackRanks</a></h2>
-            <p> Full Stack Web application provides a comprehensive assortment of course options for a user who is identifying a potential academic path, 
+            <p> Full Stack Web application that provides a comprehensive assortment of course options for a user who is identifying a potential academic path, 
                 based on multifarious quantifiable metrics and third-party services that provide numerical professor metadata. 
                 Built with React, Flask, and MongoDB and recieved 10,000+ pageviews and 300+ signed-in users.</p>
             <p><a href="https://github.com/iiradia/PackRanks">View Project in Github</a></p>
@@ -76,8 +76,8 @@ export default class Projects extends Component {
             <div className="text order-1">
                 <h4 className="subheading">WolfSnacks</h4>
                 <h2 className="heading"><a href="https://techatncsu.github.io/">WolfSnacks</a></h2>
-                <p> Full Stack Web application that automates administrative work such as volunteer tracking and data analytics for local food pantry Feed The Pack. 
-                    Built in Angular,Flask, and MySQL. Served 36,000+ NC State Students and Staff.</p>
+                <p> A Full Stack Web application that automates administrative work such as volunteer tracking and data analytics for local food pantry Feed The Pack. 
+                    Built in Angular,Flask, and MySQL. Served to 36,000+ NC State students and staff.</p>
                 <p><a href="https://techatncsu.github.io/">Learn more at Tech @ NC State</a></p>
             </div>
             </div>
