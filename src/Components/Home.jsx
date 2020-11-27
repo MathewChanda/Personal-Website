@@ -72,7 +72,7 @@ export default class Home extends Component {
                 <div className="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                     <p><a className="scroll">I'm a</a></p>
                     <h1 className="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Computer Science Student</h1>
-                    <p><a className="scroll">at the North Carolina State University</a></p>
+                    <p><a className="scroll">at North Carolina State University</a></p>
                 </div>
                 </div>
             </div>
