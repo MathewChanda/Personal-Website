@@ -100,6 +100,18 @@ export default class Resume extends Component {
                     <h2 className="mb-4"> Work Experience</h2>
                     <div className="exp-wrap py-4">
                       <div className="desc">
+                        <h4>Cisco<span> - Incoming Software Engineering Intern (Spring 2021)</span> </h4>
+                        <p className="location">San Jose, California</p>
+                        <ul>
+                          <li>Joining the WebEx Team in San Jose, CA during the Spring 2021 semester</li>
+                        </ul>
+                      </div>
+                      <div className="year">
+                        <p>TBA</p>
+                      </div>
+                    </div>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
                         <h4>LexisNexis<span> - Software Engineering Co-op</span> </h4>
                         <p className="location">Raleigh, North Carolina (Remote)</p>
                         <ul>
@@ -110,11 +122,10 @@ export default class Resume extends Component {
                         </ul>
                       </div>
                       <div className="year">
-                        <p>Aug 2020 - Now</p>
+                        <p>Aug 2020 - Dec 2020</p>
                       </div>
                     </div>
                   </div>
-
                   <div className="exp mt-5 ftco-animate">
                     <h2 className="mb-4">Education</h2>
                     <div className="exp-wrap py-4">
