@@ -195,7 +195,7 @@ export default class Resume extends Component {
 
                   <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>
                     <SiReact size={90} color="#2f89fc"/>
-                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>React and React Native</h3>
+                    <h3 style={{textAlign: "center",color:"#8c8c8c"}}>React</h3>
                   </div>
 
                   <div style={{display: "inline-block",verticalAlign:"top",margin:10,padding: 5,width: 120,textAlign: "center",textDecoration: "none",height: "100%", justifyContent: "space-evenly", flexBasis: "30%"}}>

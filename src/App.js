@@ -12,7 +12,10 @@ import {
 } from "react-router-dom";
 
 import './App.css';
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-189974504-1');
+ReactGA.pageview('/home');
 
 class App extends React.Component {
 

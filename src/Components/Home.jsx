@@ -185,7 +185,7 @@ export default class Home extends Component {
             <h2 className="heading"><a target="_blank" href="http://www.packranks.com/">PackRanks</a></h2>
             <p> Full Stack Web application that provides a comprehensive assortment of course options for a user who is identifying a potential academic path, 
                 based on multifarious quantifiable metrics and third-party services that provide numerical professor metadata. 
-                Built with React, Flask, and MongoDB and recieved 10,000+ pageviews and 300+ signed-in users.</p>
+                Built with React, Flask, and MongoDB and received 10,000+ pageviews and 300+ signed-in users.</p>
             <p><a target="_blank" href="https://github.com/iiradia/PackRanks">View Project in Github</a></p>
             </div>
         </div>
