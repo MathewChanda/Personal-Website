@@ -39,7 +39,7 @@ export default class Resume extends Component {
           <div className="col-md-12 text-center">
             <h1 className="mb-4"><a href="home" className="logo">Mathew Chanda</a></h1>
             <ul>
-                <li style={{marginRight : 33}}><a target="_blank" href="home"><span><small>01</small>Home</span></a></li>
+                <li style={{marginRight : 33}}><a href="home"><span><small>01</small>Home</span></a></li>
                 <li className="active"><a href="resume"><span><small>02</small>Resume</span></a></li>
                 {/*<li><a target="_blank" href="services.html"><span><small>03</small>Services</span></a></li>*/}
                 <li><a href="projects"><span><small>03</small>Projects</span></a></li>
