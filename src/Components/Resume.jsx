@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import pdf from './pdf/MathewResume.pdf' 
+import pdf from './MathewChanda.pdf'  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { SiJava,
@@ -98,16 +98,32 @@ export default class Resume extends Component {
                 <div className="col-md-10">
                   <div className="exp mt-5 ftco-animate">
                     <h2 className="mb-4"> Work Experience</h2>
+                    
                     <div className="exp-wrap py-4">
                       <div className="desc">
-                        <h4>Cisco<span> - Incoming Software Engineering Intern (Spring 2021)</span> </h4>
-                        <p className="location">San Jose, California</p>
+                        <h4>Tesla<span> - Software Engineering Intern </span> </h4>
+                        <p className="location">Fremont, California (Remote)</p>
                         <ul>
-                          <li>Joining the WebEx Team in San Jose, CA during the Spring 2021 semester</li>
+                          <li>Joining Vehicle Fulfillment Experience Team to work on a financial tool for the Tesla website</li>
                         </ul>
                       </div>
                       <div className="year">
                         <p>TBA</p>
+                      </div>
+                    </div>
+                    <div className="exp-wrap py-4">
+                      <div className="desc">
+                        <h4>Cisco<span> - Software Engineering Intern </span> </h4>
+                        <p className="location">San Jose, California (Remote)</p>
+                        <ul>
+                          <li>Joined the WebEx Team in San Jose, CA to maintain Webex’s Javascript SDK to allow third-party applications to communicate with external/internal API’s endpoints</li>
+                          <li>Implemented an improved authentication workflow by integrating OAuth 2.0 with existing sample applications</li>
+                          <li>Performed and automated unit testing to sample applications with Webdrivers, Mocha, and Chai</li>
+                          <li>•	Established and presented proper security practices in sample applications for developers to avoid Javascript rendering issues from malicious bots</li>
+                        </ul>
+                      </div>
+                      <div >
+                        <p>Jan 2021 - Apr 2021</p>
                       </div>
                     </div>
                     <div className="exp-wrap py-4">

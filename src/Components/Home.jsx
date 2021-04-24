@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import pdf from './pdf/MathewResume.pdf' 
+import pdf from './MathewChanda.pdf'  
 
 export default class Home extends Component {
   render() {
